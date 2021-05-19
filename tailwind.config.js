@@ -3,8 +3,8 @@ module.exports = {
         enabled: true,
         layers: ['components', 'utilities'],
         content: [
-            './src/*.html',
-            './src/**/*.js',
+            './src/index.html',
+            './src/js/*.js',
         ],
         preserveHtmlElements: false,
         css: ['./src/css/*.css']
