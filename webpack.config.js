@@ -27,7 +27,7 @@ module.exports = (env, options) => {
     },
     output: {
       filename: "[name].js",
-      path: path.resolve(__dirname, "js"),
+      path: path.resolve(__dirname, "docs/src/js"),
     },
     module: {
       rules: [{
