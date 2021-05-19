@@ -99,6 +99,9 @@ module.exports = (env, options) => {
       new CopyWebpackPlugin([{
         from: "src/index.html",
         to: "../"
+      },{
+        from: "src/img",
+        to: "../img"
       }, ]),
       new FixStyleOnlyEntriesPlugin(),
       new OptimizeCSSAssetsPlugin({}),
