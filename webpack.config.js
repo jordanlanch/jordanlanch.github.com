@@ -22,7 +22,6 @@ module.exports = (env, options) => {
       ]
     },
     entry: {
-      script: ["./src/js/script.js"],
       style: ["./src/js/style.js"],
     },
     output: {
